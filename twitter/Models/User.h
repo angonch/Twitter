@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 // properties
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *screenName;
+@property (strong, nonatomic) NSURL *profilePicURL;
 
 // initializer (java equivalent = createFromJson method)
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
